@@ -1,0 +1,39 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 60px;
+    
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 45px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color:rgb(238,167,22);
+    color: Black;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+

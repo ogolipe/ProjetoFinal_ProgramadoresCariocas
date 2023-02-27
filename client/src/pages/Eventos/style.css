@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+  
+  .gap{
+      height: 70px;
+      
+      
+  }
+
+  .div-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .custom-select {
+    display: block;
+    width: 30%;
+    height: 3rem;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #FFA500;
+    background-clip: padding-box;
+    border: 2px solid #FFA500;
+    border-radius: .5rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .custom-select {
+      font-size: 1rem;
+      height: 2.5rem;
+    }
+  }
+  .custom-select:focus {
+    border-color: #FF8C00;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 165, 0, .25);
+  }
+  
+  .custom-select::-ms-expand {
+    opacity: 0;
+  }
+  
+  .custom-select option:hover {
+    background-color: #FFA500;
+    color: #fff;
+  }
+  
+  .frase-carregamento{
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .roles{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: auto;
+  }
+  
+  .role{
+      display: flex;
+      flex-direction: column;
+      ;/*espaço entre botoes*/
+      border-radius: 20px;
+      transition: 0.1s;
+      height:450px;
+      width: 250px;
+      background-color: white;
+      margin: 10px;
+      border: 1px solid gray;
+  }
+  
+  
+  
+  
+  .role img{
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 20px 20px 0px 0px;
+  }
+  
+  
+  .title-and-price{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin: 10px 20px;
+      font-family: 'Bebas Neue', cursive;
+      background-color: white;
+      border-radius: 10px;
+      border: 1px solid orange;
+      background-color:  rgba(255, 166, 0, 0.551);
+  }
+  
+  .title-and-price span{
+      margin: auto;
+  }
+  
+  .title{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+  
+}
+
+    .price{
+        color:rgb(65, 64, 64);
+    }
+
+
+  .categoria{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238,167,22);
+    background-color: rgba(0, 0, 0, 0.548);
+    position: absolute;
+    align-self:center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 250px;
+  }
+
+  .categoria p{
+    margin: 0;
+}
+  
+  .delete-and-update{
+        text-decoration: none;
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+  }
+  
+  .delete{
+      border: none;
+      padding: 5px;
+      background: rgb(219,178,25);
+      background: linear-gradient(90deg, rgba(219,178,25,1) 0%, rgba(253,209,29,1) 20%, rgba(252,176,69,1) 62%);
+      cursor: pointer;
+      color: rgb(65, 64, 64);
+      border-radius: 5px;
+      margin: 0px 10px;
+  }
+  .update{
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background: rgb(219,178,25);
+      background: linear-gradient(90deg, rgba(219,178,25,1) 0%, rgba(253,209,29,1) 20%, rgba(252,176,69,1) 62%);
+      border-radius: 5px;
+  }
+
+  .update a{
+    color: rgb(65, 64, 64);
+  }
+
+  .div-desc{
+    margin: 10px;
+    overflow:scroll;
+    width:220px;
+    height:180px;
+    text-align: center;
+    color: rgb(65, 64, 64);
+  }
+
+  .div-desc p{
+      font-size:15px;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 800;
+  }

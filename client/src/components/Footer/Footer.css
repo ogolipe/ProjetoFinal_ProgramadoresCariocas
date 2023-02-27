@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.section__padding{
+  padding: 3rem 4rem;
+}
+.footer{
+  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+ }
+
+.sb__footer{
+  display:flex;
+  flex-direction: column ;
+ 
+}
+
+.sb__footer-links{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  background-color:black;
+  border-radius: 15px;
+  
+
+}
+
+.sb__footer-links_div{
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: rgb(238,167,22);
+}
+
+a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.socialmedia {
+display: flex;
+flex-direction: row;
+}
+
+
+
+.socialmedia img{
+width: 80%;
+}
+
+.sb__footer-links_div h4{
+  font-size: 20px;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+  color:#FFA500
+  
+}
+
+.sb__footer-links_div p{
+  font-size: 15px;
+  line-height: 15px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.sb__footer-below{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and(max-width: 850px){
+  
+  .sb__footer-heading h1{
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px){ 
+
+  .sb__footer-heading h1 {
+    font-size: 34px;
+    line-height:  42px;
+}
+
+
+}
+
+@media screen and (max-width: 550px) {
+  .sb__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .sb__footer´-links_div{
+    margin: 1rem 0;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sb__footer-heading h1{
+    font-size:27px;
+    line-height:38px;
+  
+  
+}
+
+}

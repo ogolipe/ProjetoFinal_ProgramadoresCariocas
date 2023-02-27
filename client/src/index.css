@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="orange" width="24px" height="24px"><circle cx="10" cy="10" r="8" /></svg>') 10 10, auto;
+}
+
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:  rgb(238,167,22);
+}

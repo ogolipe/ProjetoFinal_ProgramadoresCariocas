@@ -1,0 +1,79 @@
+
+.form{
+   
+   background-image: url(https://a.cdn-hotels.com/gdcs/production21/d1615/106af2c1-d368-4e99-8926-a7293e3c6845.jpg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+   background-position-y:bottom;
+   background-size: cover;
+   
+   
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 45px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+.form input{
+background-color: white;
+border: 1px solid rgb(238,167,22);
+}
+.form h1{
+    color:rgb(238,167,22);
+    padding: 8px;
+    font-family: 'Lobster', cursive;
+}
+
+input{
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 30px;
+}
+
+.form Button{
+    border-radius: 50px;
+    background: rgb(219,178,25);
+    background: linear-gradient(90deg, rgba(219,178,25,1) 0%, rgba(253,209,29,1) 20%, rgba(252,176,69,1) 62%);
+}
+
+.custom-select-add {
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #FFA500;
+    background-clip: padding-box;
+    border: 2px solid #FFA500;
+    border-radius: .5rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .custom-select-add {
+      font-size: 1rem;
+      height: 2.5rem;
+    }
+  }
+  .custom-select-add:focus {
+    border-color: #FF8C00;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 165, 0, .25);
+  }
+  
+  .custom-select-add::-ms-expand {
+    opacity: 0;
+  }
+  
+  .custom-select-add option:hover {
+    background-color: #FFA500;
+    color: #fff;
+  }
