@@ -8,6 +8,7 @@ import cors from "cors"
     host:"localhost",
     user:"root",
     password:"",
+    port:"3307",
     database:"riole"
  })//codigo para conexão com o banco de dados
  

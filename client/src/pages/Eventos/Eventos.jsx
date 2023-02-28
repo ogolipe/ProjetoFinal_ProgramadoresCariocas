@@ -59,7 +59,7 @@ const Roles = () => {
     
     <div className='div-select' >
     <h2 className='frase-carregamento'>Escolha o tipo de rolé que você quer:</h2>
-        <select className='custom-select' name='select' onChange={(e) => handleCategoriaSelecionada(e.target.value)}>
+        <select className='custom-select-add' name='select' onChange={(e) => handleCategoriaSelecionada(e.target.value)}>
           <option value='todos' selected>
             CATEGORIAS
           </option>
@@ -85,7 +85,7 @@ const Roles = () => {
                 <h3>{evento.nome}</h3>
               </span>
               <span className='price'>
-                <h1>{evento.valor_min}</h1>
+                <h1>R${evento.valor_min} </h1>
               </span>
             </div>
 
@@ -94,8 +94,8 @@ const Roles = () => {
             </div>
           
               <div className='delete-and-update'>
-                <button className='delete' onClick={() => handleDelete(evento.id)}>Delete</button>
-                <button className='update'><Link to={`/update/${evento.id}`}>Update</Link></button>
+                <button className='delete' onClick={() => handleDelete(evento.id)}>Excluir</button>
+                <button className='update'><Link to={`/update/${evento.id}`}>Editar</Link></button>
               </div>
 
             </div>

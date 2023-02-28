@@ -35,6 +35,8 @@
   display: flex;
   flex-direction: column;
   color: rgb(238,167,22);
+
+  
 }
 
 a{
@@ -57,7 +59,9 @@ width: 80%;
   font-size: 20px;
   line-height: 17px;
   margin-bottom: 0.9rem;
-  color:#FFA500
+  color:#FFA500;
+  text-decoration:underline;
+  
   
 }
 
@@ -70,8 +74,8 @@ width: 80%;
 }
 
 .sb__footer-links_div p{
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 20px;
+  line-height: 18px;
   margin: 0.5rem 0;
   cursor: pointer;
 }

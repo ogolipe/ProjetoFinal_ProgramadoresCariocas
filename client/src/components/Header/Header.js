@@ -26,7 +26,7 @@ return(
         <>
         <nav className='navbar'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> 
-                <span className='logoName'>RiOLé <i class="fas fa-route"></i></span>
+                <div className='logoName'>RiOLé <i class="fas fa-route"></i></div>
                 </Link>
             <div className='navbar-container'>
                 <div className='menu-icon' onClick={handleClick}>

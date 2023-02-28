@@ -36,7 +36,7 @@ input{
 }
 
 .form Button{
-    border-radius: 50px;
+    border-radius: 10px;
     background: rgb(219,178,25);
     background: linear-gradient(90deg, rgba(219,178,25,1) 0%, rgba(253,209,29,1) 20%, rgba(252,176,69,1) 62%);
 }
@@ -55,12 +55,18 @@ input{
     border: 2px solid #FFA500;
     border-radius: .5rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 190px;
+    
   }
 
   @media (max-width: 768px) {
     .custom-select-add {
       font-size: 1rem;
       height: 2.5rem;
+      text-align: center;
+    }
+    .form h1{
+      text-align: center;
     }
   }
   .custom-select-add:focus {

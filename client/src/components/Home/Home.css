@@ -66,6 +66,7 @@ video{
     background-color: rgb(0, 0, 0, 0.4);
     padding: 10px;
     color:rgb(255, 170, 0);
+    border-radius: 5px;
      
 }
 .overlay {

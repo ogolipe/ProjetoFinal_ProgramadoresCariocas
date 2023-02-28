@@ -16,6 +16,8 @@
   }
 
   .titulo-filtro{
+    padding: 10px;
+  border-radius: 5px;
     background-color: #FFA500;
   }
   
@@ -60,7 +62,9 @@
     border-radius: 2em;
     padding: 0.75em 1em;
     
-    background: #FFA500;
+    background: rgb(219,178,25);
+    background: linear-gradient(90deg, rgba(219,178,25,1) 0%, rgba(253,209,29,1) 20%, rgba(252,176,69,1) 62%);
+    
     color: white;
     
     display: inline-flex;

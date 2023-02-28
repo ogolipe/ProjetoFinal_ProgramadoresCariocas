@@ -24,11 +24,11 @@ const Filtro = () => {
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                <Link to='/filtro/30'>Até 30</Link>
+                <Link to='/filtro/30'>Até R$30</Link>
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                <Link to='/filtro/100'>Até 100</Link>
+                <Link to='/filtro/100'>Até R$100</Link>
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>

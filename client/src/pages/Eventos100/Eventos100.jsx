@@ -46,7 +46,7 @@ const Roles100 = () => {
                   <h3>{evento.nome}</h3>
                 </span>
                 <span className='price'>
-                  <h1>{evento.valor_min}</h1>
+                  <h1>R${evento.valor_min}</h1>
                 </span>
               </div>
 
