@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.scss'
-import Loadind from '../../components/Loading/loading';
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import { Link } from 'react-router-dom';
 
 const Filtro = () => {
 
@@ -20,19 +20,19 @@ const Filtro = () => {
             <div className='botoes-filtro'>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                  Gratuito
+                  <Link to='/filtro/gratuito'>Gratuito</Link>
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                  Até 30
+                <Link to='/filtro/30'>Até 30</Link>
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                  Até 100
+                <Link to='/filtro/100'>Até 100</Link>
               </button>
               <button className='btt-filtro'>
                 <span class="spinner"></span>
-                  O céu é o limite
+                <Link to='/filtro/ceu'>O céu é o limite!</Link>
               </button>
               </div>
           </div>

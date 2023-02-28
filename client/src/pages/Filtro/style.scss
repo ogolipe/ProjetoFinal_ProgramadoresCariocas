@@ -49,9 +49,6 @@
     align-items: center;
     justify-content: center;
     height: 10rem;
-  }
-
-  button {
 
     width: 20rem;
     // Removes browser styling
@@ -73,12 +70,10 @@
     font-family: 'Bebas Neue', cursive;
     
     cursor: wait;
-    
   }
 
-  button :hover{ 
-    background-color: black;
-  }
+
+ 
   
   .spinner {
     --size: 1.25em;
