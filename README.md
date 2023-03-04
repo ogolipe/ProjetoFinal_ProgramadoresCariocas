@@ -16,13 +16,34 @@ Esse projeto foi utilizado para simular como é um ambiente de trabalho, pois fo
 
 
 
-## Nossa proposta
+## NOSSA PROPOSTA
  
 O site tem como objetivo fornecer aos usuários uma plataforma que vai otimizar a busca por diferentes eventos locais, e ajudará também os mesmo a terem contato direto com organizadores. O site permitirá a busca de eventos como shows, festivas, conferências, exposições e muito mais. Dentro da plataforma estará disponível um filtro possibilitando o usuário encontrar eventos gratuitos ou pagos que cabem no seu bolso.
 
 Além disso, será permitido que os organizadores cadastrem seus eventos e alcancem um público mais amplo, eles poderam criar listas detalhadas de seus eventos, incluindo informações como local, data, hora, preço, descrição e muito mais.
 
 nosso foco com esse site é dispobilizar eventos poucos conhecidos que sejam locais  e são interessantes, porém não possuem muito reconhecimento, seja eventos esportivos, teatrais , músicas entre outros.
+
+## INSTALANDO O PROJETO EM SUA MÁQUINA
+
+FAÇA O CLONE OU DOWNLOAD DO PROJETO EM SUA MÁQUINA
+
+IMPORTE O NOSSO BANCO RIOLÉ PARA O MYSQL( O BANCO SE ENCONTRA NA PASTA SERVER, E É IMPORTANTE PARA O FUNCIONAMENTO DO PROJETO )
+
+ABRA O PROJETO COM O VS CODE
+
+ACESSE A PASTA CLIENT E BACKEND ATRAVÉS DO TERMINAL
+
+![termina client e backend](https://user-images.githubusercontent.com/113526718/222856671-96bfb64c-c555-4810-be42-8e332594f20b.png)
+
+INSTALE AS DEPENDÊNCIAS DE CADA PASTA
+
+![image](https://user-images.githubusercontent.com/113526718/222857652-8ab2a142-63a8-4e58-a023-b64057924698.png)
+
+INICIE PRIMEIRO O BACKEND E DEPOIS A PASTA CLIENT NA PORTA 3001
+
+![image](https://user-images.githubusercontent.com/113526718/222857549-b14b82b5-1857-4221-91b5-39d600599043.png)
+
 
 ## Página Home
 <img width="958" alt="home_cristo" src="https://user-images.githubusercontent.com/112408111/222288397-8cee320e-07b6-490c-a2c1-f350632cb5ba.png"> 
